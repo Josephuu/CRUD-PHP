@@ -1,5 +1,10 @@
 <!-- Hace la coneccion con la base de datos en localhost -->
 <?php
+
+session_start();
+
+
+
 $conn=mysqli_connect(
     'localhost',
     'root',
